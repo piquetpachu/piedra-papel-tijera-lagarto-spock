@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    max-width: 100%;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+}
+.menuHorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menuHorizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menuHorizontal > li:hover{
+    background-color: red;
+}
+.menuVertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.menuHorizontal li:hover .menuVertical{
+    display: block;
+}
+.menuVertical li:hover{
+    background-color: black;
+
+}
+.menuVertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px;
+}
