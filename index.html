@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piedra Papel Tijera Lagarto Spock</title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Piedra Papel Tijera Lagarto Spock</title>
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <iframe src="menu.html" frameborder="0" width="100%" height="40%" scrolling="no" ></iframe>
     <div class="Container">
-        <iframe src="menu.html" frameborder="0" width="100%" height="100%"></iframe>
-        <br>
-        <br>
         <h1>Piedra Papel Tijera Lagarto Spock</h1>
         
         <div id="result">
@@ -28,9 +26,9 @@
             <h4>Racha de victoria</h4>
             <h2 id="contadoroponente">0</h2>
 
-
+            
         </div>
-
+       
         <div  id="botones" >
             <button id="rock" type="button">
                 <img src="img/piedra.png" alt="rock">
@@ -45,7 +43,7 @@
                 <img src="img/lagarto.png" alt="lizar">
             </button>
             <button id="spoke" type="button">
-                <img src="img/spock.png" alt="spoke">
+                <img id="spockimg" src="img/spock.png" alt="spoke">
             </button>
         </div>
         
@@ -55,5 +53,6 @@
     </div>
     
         <script src="app.js"></script>
+        <script src="menu.js"></script>
     </body>
     </html>

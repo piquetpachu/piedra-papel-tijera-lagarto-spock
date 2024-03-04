@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 nav{
     max-width: 100%;
@@ -27,7 +28,8 @@ nav{
     position: absolute;
     display: none;
     list-style: none;
-    width: 200px;
+    width: 100%;
+    height: 40%;
     background-color: rgba(0, 0, 0, .5);
 }
 .menuHorizontal li:hover .menuVertical{
